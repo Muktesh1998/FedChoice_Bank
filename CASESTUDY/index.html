@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel='stylesheet' href='css/bootstrap.css'>
+<link rel='stylesheet' href='style.css'>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel='stylesheet' href='css/mdb.css'>
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+
+    <div class="btn-group">
+<div class='head'>
+    <div class='hed'>
+    <h1 style="color:black">FedChoice Bank</h1>
+    </div>
+</div>
+    </div>
+
+<div>
+    <div class='back'>
+    <div class="btn-group">
+        <div class="dropdown">
+            <button class="btn btn-warning " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             HOME
+            </button>
+
+    <div class="btn-group">
+<div class="dropdown">
+    <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Customer manage
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="#">Create customer</a>
+      <a class="dropdown-item" href="#">Update Customer</a>
+      <a class="dropdown-item" href="#">Delete Customer</a>
+      <a class="dropdown-item" href="#">Customer search</a>
+    </div>
+  </div>
+  </div>
+
+  <div class="btn-group">
+    <div class="dropdown">
+        <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Account manage
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Create account</a>
+          <a class="dropdown-item" href="#">Delete account</a>
+          <a class="dropdown-item" href="#">account search</a>
+        </div>
+      </div>
+      </div>
+
+      <div class="btn-group">
+        <div class="dropdown">
+            <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Status details
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Customer status</a>
+              <a class="dropdown-item" href="#">account status</a>
+             </div>
+          </div>
+          </div>
+    
+          <div class="btn-group">
+            <div class="dropdown">
+                <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Account opera
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">deposit money</a>
+                  <a class="dropdown-item" href="#">withdraw money</a>
+                  <a class="dropdown-item" href="#">Transfer money</a>
+                  <a class="dropdown-item" href="#">Account statement</a>
+                </div>
+              </div>
+              </div>
+              <div class="btn-group">
+                <div class="dropdown">
+                    <button class="btn btn-warning " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Logout
+                    </button>
+              
+ </div>
+ </div>
+ </div>
+</div>
+</div>
+</div>
+</div>
+<div align='center'>
+    <form id="form_login">
+        <centre>
+            <hr>
+    <fieldset>
+        <legend>Create Customer Screen</legend>
+     
+    
+    <label for="ssn">Customer SSN Id*:</label>
+ 
+    <input type="text" id="ssn" name="ssnid" required><br>
+    
+    <label for="fname">Customer name*:</label>
+     
+    <input type="text" id="fname" name="firstname" required><br>
+  
+    <label for="age">Age*:</label>
+    
+    <input type="number" id="age" name="Age" required><br>
+    
+    <label for="addr">Address*:</label>
+    
+    <input type="text" id="addr" name="Address" required><br>
+    
+    <label for="State">State*:</label>
+   
+
+
+   <select id="State">
+  <option value="karnataka">karnataka</option>
+  <option value="kerala">kerala</option>
+  <option value="UP">UP</option>
+  <option value="Bihar">Bihar</option>
+   </select><br>
+
+  <label for="City">City*:</label>
+  <select id="City">
+    <option value="kochi">kochi</option>
+    <option value="banglore">banglore</option>
+    <option value="lucknow">lucknow</option>
+    <option value="patna">patna</option>
+    </select><br>
+    <h6 style="color:red">(*)fields are compulsory</h6>
+    <input type="button" value="Submit">
+    <input type="button" value="reset">
+  </centre>
+    </fieldset>
+    </form></div>
+ 
+
+ <footer class="page-footer font-small unique-color-dark" id="contact">
+
+    <div style="background-color: #6351ce;">
+      <div class="container">
+  
+        <!-- Grid row-->
+        <div class="row py-4 d-flex align-items-center">
+  
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0">Get connected with us!</h6>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+  
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f white-text mr-4"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter white-text mr-4"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g white-text mr-4"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in white-text mr-4"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram white-text"> </i>
+            </a>
+  
+          </div>
+          <!-- Grid column -->
+  
+        </div>
+        <!-- Grid row-->
+  
+      </div>
+    </div>
+  
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
+  
+      <!-- Grid row -->
+      <div class="row mt-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+  
+          <!-- Content -->
+        
+          <h6 class="text-uppercase font-weight-bold">About Us</h6>
+        
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>FedChoice Bank was founded on 14th June 2016 with objective of providing with the detail services based on Retail banking operating.
+              The Retail internet banking of FedChoice bank offers a plethora of products and services, to cater its customers by providing certain animus services with 
+              an easy voving offers and ways to do the required job without hurlding the process
+          </p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column 
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+  
+           
+          <h6 class="text-uppercase font-weight-bold">Products</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="#!">MDBootstrap</a>
+          </p>
+          <p>
+            <a href="#!">MDWordPress</a>
+          </p>
+          <p>
+            <a href="#!">BrandFlow</a>
+          </p>
+          <p>
+            <a href="#!">Bootstrap Angular</a>
+          </p>
+  
+        </div>
+         Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+  
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Services</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>Retail and Consumer banking <br> personal internet banking<br>
+        Corporate internet banking<br>Debait and credit cards</p>
+   
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+  
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Contact us</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>Email:customerservice@fedchoice.com<br>
+        Contact no:022-243535,022-236657<br>
+    Address:Corporate office,Madame came Road<br>
+     Nariman Point,Mumbai,Maharashtra 400021</p> 
+
+          </p>
+           
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+
+
+
+</body>
+</html>
